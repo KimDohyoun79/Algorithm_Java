@@ -4,7 +4,6 @@
 https://www.acmicpc.net/group/practice/15876
 
 ---
-A
 
 W1 `구현&정렬` - 김기헌
 
