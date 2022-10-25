@@ -1,4 +1,4 @@
-package baekjoon_1W;
+package baekjoon_1W_basic;
 //https://www.acmicpc.net/problem/1629
 // 참고 https://st-lab.tistory.com/237
 

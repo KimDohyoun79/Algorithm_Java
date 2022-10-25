@@ -1,4 +1,4 @@
-package baekjoon_1W;
+package baekjoon_1W_basic;
 //https://www.acmicpc.net/problem/2108
 
 import java.io.BufferedReader;

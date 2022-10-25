@@ -1,4 +1,4 @@
-package baekjoon_1W;
+package baekjoon_1W_basic;
 //https://www.acmicpc.net/problem/8979
 // Tokenizer 사용법 https://jhnyang.tistory.com/398
 
