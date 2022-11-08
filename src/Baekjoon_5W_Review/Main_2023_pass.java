@@ -24,7 +24,7 @@ public class Main_2023_pass {
             return;
         }
 
-        for (int i = 1; i < 10; i+=2) { // 두번째 자리부터 1, 3, 7, 9
+        for (int i = 1; i < 10; i+=2) { // 두번째 자리부터 1, 3, 5, 7, 9만 확인 (1,3,7,9만 확인하면 됨)
             String num = checkNum + i;
             if(isPrime(Integer.parseInt(num))){
                 backTracking(num, N);
