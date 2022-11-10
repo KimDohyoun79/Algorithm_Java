@@ -63,7 +63,7 @@ aapqbcbqpqaa
 import java.io.*;
 import java.util.Scanner;
 
-class Main_17609_pass_c {
+class Main_17609_pass_r {
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);

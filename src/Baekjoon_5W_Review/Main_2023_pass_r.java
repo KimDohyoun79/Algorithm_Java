@@ -4,7 +4,7 @@ package Baekjoon_5W_Review;
 
 import java.io.*;
 
-public class Main_2023_pass {
+public class Main_2023_pass_r {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

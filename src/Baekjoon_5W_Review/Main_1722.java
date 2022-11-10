@@ -16,17 +16,17 @@ class Main_1722 {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int number = sc.nextInt();
-        if(number==1){
-
+        int testCase = sc.nextInt();
+        if(testCase==1){
+            int k =sc.nextInt();
         }
         else{
             int[] arr = new int[n];
             for (int i = 0; i < n; i++) {
                 arr[i] = sc.nextInt();
             }
-
         }
+
 
     }
 
