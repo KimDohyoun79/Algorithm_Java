@@ -71,6 +71,7 @@ class Main_2512_pass {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();   // 지방의 수
+        int m = sc.nextInt();   // 총 예산
 
         int[] arr = new int[n];
         int max = Integer.MIN_VALUE;
@@ -78,8 +79,6 @@ class Main_2512_pass {
             arr[i] = sc.nextInt();
             max = max > arr[i] ? max : arr[i];
         }
-
-        int m = sc.nextInt();// 총 예산
 
         System.out.println(budget(arr, m, max));
 
