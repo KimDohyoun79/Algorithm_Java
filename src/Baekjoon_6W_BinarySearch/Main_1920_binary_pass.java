@@ -37,7 +37,7 @@ class Main_1920_binary_pass {
     }
 
     public static boolean binarySearch01(int front, int end, int target, int[] arrN) {
-        int mid = arrN.length - 1;
+        int mid;
         while (front <= end) {
 
             mid = (front + end) / 2;

@@ -21,7 +21,8 @@ class Main_2_4375_pass_r {
 
             // 모듈러 연산
             while (i % num != 0) {
-                i = (i * 10 + 1) % num;
+                i = (i * 10 + 1);
+                i = i% num;
                 len++;
             }
             bw.write(String.valueOf(len) + "\n");
