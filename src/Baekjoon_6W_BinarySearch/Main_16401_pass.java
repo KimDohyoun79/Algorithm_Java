@@ -37,7 +37,7 @@ import java.util.Scanner;
 // 나누어 줄 수 없을때 예외처리 ! pivot 값 계산에서 <런타임 에러 by zero> 발생했다.
 // => 초기 left 값을 0을 초기화하면 0까지 pivot을 계산하는데 사용된다.
 // => 이분탐색에서  pivot값 기준으로 사용할 데이터에 0이 없도록 하자
-class Main_16401 {
+class Main_16401_pass {
 
     public static void main(String[] args) {
 
