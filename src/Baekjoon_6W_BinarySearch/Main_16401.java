@@ -4,8 +4,7 @@ package Baekjoon_6W_BinarySearch;
 // 참고2 : https://velog.io/@kmh9250/%EB%B0%B1%EC%A4%8016401-%EA%B3%BC%EC%9E%90-%EB%82%98%EB%88%A0%EC%A3%BC%EA%B8%B0
 
 
-import java.util.Collections;
-import java.util.LinkedList;
+
 import java.util.Scanner;
 
 /*
@@ -24,7 +23,20 @@ import java.util.Scanner;
 4 10
 9 10 120 40 55 12 40 50 60 10
 => 55
+
+모든 조카에게 나눠줄 수 없으면 0 / 런타임 에러 by zero
+10  3
+1 1 1
+=> 0
  */
+
+// 정렬을 사용하면 시간 초과가 된다.
+// => 과자를 정렬하는 것이 아니다.
+// => 이분탐색에서 정렬 할 데이터는 pivot값 기준으로 사용할 데이터가 정렬되어 있으면 된다.
+
+// 나누어 줄 수 없을때 예외처리 ! pivot 값 계산에서 <런타임 에러 by zero> 발생했다.
+// => 초기 left 값을 0을 초기화하면 0까지 pivot을 계산하는데 사용된다.
+// => 이분탐색에서  pivot값 기준으로 사용할 데이터에 0이 없도록 하자
 class Main_16401 {
 
     public static void main(String[] args) {
@@ -33,20 +45,19 @@ class Main_16401 {
         int nephewM = sc.nextInt();
         int snackN = sc.nextInt();
 
-        LinkedList<Integer> list = new LinkedList<>();
-
+        int[] arr = new int[snackN];
+        int max = Integer.MIN_VALUE;
         for (int i = 0; i < snackN; i++) {
-            int num = sc.nextInt();
-            list.add(num);
+            arr[i] = sc.nextInt();
+            if (max < arr[i])
+                max = arr[i];
         }
 
-        Collections.sort(list);
-
-        System.out.println(binarySearch01(0, list.getLast(), nephewM, list));
+        System.out.println(binarySearch01(1, max, nephewM, arr));
 
     }
 
-    public static int binarySearch01(int left, int right, int M, LinkedList<Integer> list) {
+    public static int binarySearch01(int left, int right, int M, int[] arr) {
 
         int result = 0;
         while (left <= right) {
@@ -54,9 +65,9 @@ class Main_16401 {
             int cnt = 0;
 
 
-            for (int i = (list.size() - 1); i >= 0; i--) {
-                cnt += list.get(i) / pivot;
-                if(cnt >= M)
+            for (int i = arr.length - 1; i >= 0; i--) {
+                cnt += arr[i] / pivot;
+                if (cnt >= M)
                     break;
             }
 
