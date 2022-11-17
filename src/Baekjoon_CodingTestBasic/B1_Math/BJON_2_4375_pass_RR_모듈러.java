@@ -1,4 +1,4 @@
-package Baekjoon_CodingTestBasic;
+package Baekjoon_CodingTestBasic.B1_Math;
 // 문제 : 1
 // 기초 문제 : https://code.plus/course/51
 // 문제 링크 : https://www.acmicpc.net/problem/4375
