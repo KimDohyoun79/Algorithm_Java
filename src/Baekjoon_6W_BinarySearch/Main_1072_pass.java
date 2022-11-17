@@ -13,7 +13,7 @@ import java.util.Scanner;
 - 1000000	999990 와 같은 예제에서는 마지막까지 검사를 하여도 결과가 바뀌지 않는다. (-1)
 
  */
-class Main_1072 {
+class Main_1072_pass {
 
     public static void main(String[] args) {
 

@@ -11,14 +11,15 @@ import java.util.Scanner;
 /*
 4 2
 10 11
+=> 5
 
 5 3
 2 5 10
-
+=> 2
 
 6 6
 5 5 5 4 5 7
-
+=> 4
 
 4 10
 9 10 120 40 55 12 40 50 60 10
@@ -34,43 +35,38 @@ class Main_16401 {
 
         LinkedList<Integer> list = new LinkedList<>();
 
-        int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
         for (int i = 0; i < snackN; i++) {
             int num = sc.nextInt();
-
             list.add(num);
-
-            if (num < min)
-                min = num;
-            if (max < num)
-                max = num;
         }
 
         Collections.sort(list);
 
-        System.out.println(binarySearch01(1, max, nephewM, list));
+        System.out.println(binarySearch01(0, list.getLast(), nephewM, list));
 
     }
 
-    public static int binarySearch01(int front, int end, int M, LinkedList<Integer> list) {
-        int result = 0;
-        while (front <= end) {
+    public static int binarySearch01(int left, int right, int M, LinkedList<Integer> list) {
 
-            int mid = (front + end) / 2;
+        int result = 0;
+        while (left <= right) {
+            int pivot = (left + right) / 2;
             int cnt = 0;
-            for (int i = 0; i < list.size(); i++) {
-                cnt += list.get(i) / mid;
+
+
+            for (int i = (list.size() - 1); i >= 0; i--) {
+                cnt += list.get(i) / pivot;
+                if(cnt >= M)
+                    break;
             }
 
             if (cnt >= M) {
-                result = mid;
-                front = mid + 1;
+                result = pivot;
+                left = pivot + 1;
             } else {
-                end = mid - 1;
+                right = pivot - 1;
             }
         }
         return result;
     }
-
 }
