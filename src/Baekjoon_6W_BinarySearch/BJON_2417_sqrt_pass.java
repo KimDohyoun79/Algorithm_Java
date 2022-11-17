@@ -14,7 +14,7 @@ class BJON_2417_sqrt_pass {
         long num = Long.parseLong(br.readLine());
 
         long sqrtNum = (long) Math.sqrt(num);
-
+        System.out.println(sqrtNum*sqrtNum);
         if (sqrtNum * sqrtNum < num)
             System.out.println(sqrtNum + 1);
         else

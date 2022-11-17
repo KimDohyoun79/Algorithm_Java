@@ -1,4 +1,4 @@
-package Baekjoon_CodingTestBasic.B1_Math;
+package Baekjoon_CodingTestBasic.B1_Math.BJON_3_1037_약수;
 // 문제 : 약수
 // 기초 문제 : https://code.plus/course/51
 // 문제 링크 : https://www.acmicpc.net/problem/1037
@@ -6,7 +6,7 @@ package Baekjoon_CodingTestBasic.B1_Math;
 
 import java.util.Scanner;
 
-class BJON_3_1037_pass {
+class BJON_3_1037 {
 
     public static void main(String[] args) {
 

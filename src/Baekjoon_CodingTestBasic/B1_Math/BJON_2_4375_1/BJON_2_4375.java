@@ -1,4 +1,4 @@
-package Baekjoon_CodingTestBasic.B1_Math;
+package Baekjoon_CodingTestBasic.B1_Math.BJON_2_4375_1;
 // 문제 : 1
 // 기초 문제 : https://code.plus/course/51
 // 문제 링크 : https://www.acmicpc.net/problem/4375
@@ -9,7 +9,7 @@ package Baekjoon_CodingTestBasic.B1_Math;
 
 import java.io.*;
 
-class BJON_2_4375_pass_RR_모듈러 {
+class BJON_2_4375 {
 
     public static void main(String[] args) throws IOException {
 
