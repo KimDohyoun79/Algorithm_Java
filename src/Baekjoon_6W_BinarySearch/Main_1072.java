@@ -5,7 +5,12 @@ package Baekjoon_6W_BinarySearch;
 import java.util.Scanner;
 
 /*
-double 로 계산 시 정확한 값이 아니라 근사값이 나올 수 있다.
+53 47 => 2
+1000000	999990 => -1
+
+
+- double 로 계산 시 정확한 값이 아니라 근사값이 나올 수 있다.
+- 1000000	999990 와 같은 예제에서는 마지막까지 검사를 하여도 결과가 바뀌지 않는다. (-1)
 
  */
 class Main_1072 {
@@ -36,14 +41,11 @@ class Main_1072 {
                 } else { // 변하지 않으면 left수를 증가시켜 pivot값을 높인다.
                     left = pivot + 1;
                 }
-
             }
             System.out.println(result);
         }
     }
 
-    // 53 47
-    // 1000000	999990 => -1
     public static int winRate(long total, long win) {
         return (int) (win * 100 / total);
     }
