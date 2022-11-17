@@ -1,4 +1,4 @@
-package Baekjoon_6W_BinarySearch;
+package Baekjoon_6W_BinarySearch.BJON_2512_예산;
 //https://www.acmicpc.net/problem/2512
 // 참고 : https://youngest-programming.tistory.com/502
 

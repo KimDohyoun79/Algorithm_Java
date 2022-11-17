@@ -1,4 +1,4 @@
-package Baekjoon_6W_BinarySearch;
+package Baekjoon_6W_BinarySearch.BJON_2417_정수제곱근;
 //https://www.acmicpc.net/problem/2417
 
 import java.io.BufferedReader;

@@ -1,4 +1,4 @@
-package Baekjoon_6W_BinarySearch;
+package Baekjoon_6W_BinarySearch.BJON_1920_수찾기;
 //https://www.acmicpc.net/problem/1920
 /*
 5

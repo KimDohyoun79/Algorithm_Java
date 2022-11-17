@@ -1,4 +1,4 @@
-package Baekjoon_6W_BinarySearch;
+package Baekjoon_6W_BinarySearch.BJON_;
 //https://www.acmicpc.net/problem/1920
 
 import java.util.Scanner;

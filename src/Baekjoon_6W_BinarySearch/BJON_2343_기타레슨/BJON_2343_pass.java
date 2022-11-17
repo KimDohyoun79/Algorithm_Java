@@ -1,4 +1,4 @@
-package Baekjoon_6W_BinarySearch;
+package Baekjoon_6W_BinarySearch.BJON_2343_기타레슨;
 //https://www.acmicpc.net/problem/2343
 
 import java.util.Scanner;

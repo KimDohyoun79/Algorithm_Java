@@ -1,4 +1,4 @@
-package Baekjoon_6W_BinarySearch;
+package Baekjoon_6W_BinarySearch.BJON_1072_게임;
 //https://www.acmicpc.net/problem/1072
 //https://girawhale.tistory.com/116
 
