@@ -5,7 +5,7 @@ package Baekjoon_6W_BinarySearch.BJON_16401_과자나눠주기;
 import java.util.Scanner;
 
 
-class `BJON_16401_pass {
+class BJON_16401_pass {
 
     public static void main(String[] args) {
 

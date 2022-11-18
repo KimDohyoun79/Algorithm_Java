@@ -6,7 +6,7 @@ package Baekjoon_CodingTestBasic.B1_Math.BJON_3_1037_약수;
 
 import java.util.Scanner;
 
-class BJON_3_1037 {
+class BJON_3_1037_pass {
 
     public static void main(String[] args) {
 
