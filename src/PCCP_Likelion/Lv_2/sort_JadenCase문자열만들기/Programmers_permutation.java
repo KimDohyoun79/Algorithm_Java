@@ -2,6 +2,8 @@ package PCCP_Likelion.Lv_2.sort_JadenCase문자열만들기;
 //https://school.programmers.co.kr/learn/courses/30/lessons/12951
 
 
+
+
 //" " 공백문자가 여러개 올경우 split의 경우 오류가 발생합니다
 // tokenizer의 true 로 사용하시는 걸 추천드립니다.
 public class Programmers_permutation {
@@ -59,6 +61,7 @@ public class Programmers_permutation {
 
 // tyr2 : 틀렸습니다.
 // 공백이 여러개 와도 여래개 만큼 출력해야 한다.
+//import java.util.StringTokenizer;
 //public class Programmers_permutation {
 //
 //    public static String changeFistWord(String s) {
