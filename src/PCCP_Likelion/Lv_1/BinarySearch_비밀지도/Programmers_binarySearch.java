@@ -21,8 +21,8 @@ public class Programmers_binarySearch {
 
         for (int i = 0; i < n; i++) {
             answer[i] = bi(arr1[i] | arr2[i], n)
-                    .replaceAll("1", "#")
-                    .replaceAll("0", " ");
+                    .replace("1", "#")
+                    .replace("0", " ");
         }
         return answer;
     }
