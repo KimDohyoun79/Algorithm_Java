@@ -9,7 +9,7 @@ public class Programmers_sort {
 
         // 1. 배열에 데이터가 하나만 있으면 -1로 반환
         int[] answer;
-        if (arr.length -1 == 0)
+        if (arr.length == 1)
             return answer = new int[]{-1};
 
         // 2. 가장 작은 수 구하기
