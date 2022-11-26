@@ -1,8 +1,6 @@
-package PCCP_Likelion.Lv_2.permutation_N_M_1;
+package PCCP_Likelion.Lv_2.Permutation_N_M_1;
 //https://www.acmicpc.net/problem/15649
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class BJON_permutation {

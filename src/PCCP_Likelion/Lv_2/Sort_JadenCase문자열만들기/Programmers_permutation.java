@@ -1,4 +1,4 @@
-package PCCP_Likelion.Lv_2.sort_JadenCase문자열만들기;
+package PCCP_Likelion.Lv_2.Sort_JadenCase문자열만들기;
 //https://school.programmers.co.kr/learn/courses/30/lessons/12951
 
 
