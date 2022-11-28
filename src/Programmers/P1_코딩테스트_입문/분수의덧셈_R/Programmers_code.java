@@ -1,4 +1,4 @@
-package Programmers.P1_코딩테스트_입문.분수의덧셈_r;
+package Programmers.P1_코딩테스트_입문.분수의덧셈_R;
 // https://school.programmers.co.kr/learn/courses/30/lessons/120808
 
 

@@ -1,5 +1,5 @@
 package Programmers.P1_코딩테스트_입문.배열의평균값;
-// https://school.programmers.co.kr/learn/courses/30/lessons/120813
+// https://school.programmers.co.kr/learn/courses/30/lessons/120585
 
 
 import java.util.ArrayList;
