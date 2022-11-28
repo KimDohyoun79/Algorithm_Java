@@ -1,8 +1,7 @@
-package Baekjoon_Study.Baekjoon_7W_DFS_BFS.BJON_2206_벽부수고이동하기;
+package Baekjoon_Study.Baekjoon_7W_DFS_BFS.BJON_2206_벽부수고이동하기_umm;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
 
 class BJON_2206 {
