@@ -1,4 +1,4 @@
-package Programmers.P1_코딩테스트_입문.최빈값구하기;
+package Programmers.P1_코딩테스트_입문.최빈값구하기_r;
 // https://school.programmers.co.kr/learn/courses/30/lessons/120812
 
 
