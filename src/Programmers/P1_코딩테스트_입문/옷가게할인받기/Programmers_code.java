@@ -1,5 +1,5 @@
 package Programmers.P1_코딩테스트_입문.옷가게할인받기;
-// https://school.programmers.co.kr/learn/courses/30/lessons/120812
+// https://school.programmers.co.kr/learn/courses/30/lessons/120818
 
 
 public class Programmers_code {
