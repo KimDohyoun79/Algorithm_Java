@@ -21,9 +21,7 @@ public class BJON_permutation {
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        for (int i = 1; i <= n; i++) {
-            recursion(i);
-        }
+
 
     }
 }
