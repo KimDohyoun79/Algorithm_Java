@@ -2,6 +2,9 @@ package Programmers.P1_코딩테스트_입문.숫자찾기;
 // https://school.programmers.co.kr/learn/courses/30/lessons/120904
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Programmers_code {
 
     public static int solution(int num, int k) {
@@ -9,7 +12,7 @@ public class Programmers_code {
         String s = String.valueOf(num);
         String sk = String.valueOf(k);
 
-        return s.indexOf(sk)<0? -1:s.indexOf(sk)+1;
+        return s.indexOf(sk) < 0 ? -1 : s.indexOf(sk) + 1;
     }
 
 
