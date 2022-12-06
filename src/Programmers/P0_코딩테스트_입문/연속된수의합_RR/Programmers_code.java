@@ -1,4 +1,4 @@
-package Programmers.P1_코딩테스트_입문.연속된수의합_RR;
+package Programmers.P0_코딩테스트_입문.연속된수의합_RR;
 // https://school.programmers.co.kr/learn/courses/30/lessons/120923
 
 //      1. total / num = 중간 값.

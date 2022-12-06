@@ -1,4 +1,4 @@
-package Programmers.P1_코딩테스트_입문.약수구하기;
+package Programmers.P0_코딩테스트_입문.약수구하기;
 // https://school.programmers.co.kr/learn/courses/30/lessons/120897
 
 import java.util.ArrayList;

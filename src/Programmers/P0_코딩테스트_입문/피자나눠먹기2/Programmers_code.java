@@ -1,4 +1,4 @@
-package Programmers.P1_코딩테스트_입문.피자나눠먹기2;
+package Programmers.P0_코딩테스트_입문.피자나눠먹기2;
 // https://school.programmers.co.kr/learn/courses/30/lessons/120812
 
 
