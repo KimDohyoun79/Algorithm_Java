@@ -3,23 +3,23 @@ import java.util.Scanner;
 
 class test {
 
-    public static String solution(String rsp) {
-        String answer = "";
+    public static int solution(int hp) {
+        int answer = 0;
 
-        for (int i = 0; i < rsp.length(); i++) {
-            if (rsp.charAt(i) == '0')
-                answer += "5";
-            else if (rsp.charAt(i) == '2')
-                answer += "0";
-            else
-                answer += "2";
-        }
-        return answer;
+        answer += hp /5;
+        hp %=5;
+
+        answer += hp/3;
+        hp %=3;
+
+        return answer+hp;
     }
-
     public static void main(String[] args) {
 
-        System.out.println(solution("205"));
+        Scanner sc = new Scanner(System.in);
 
+        int hp = sc.nextInt();
+
+        System.out.println(solution(hp));
     }
 }
