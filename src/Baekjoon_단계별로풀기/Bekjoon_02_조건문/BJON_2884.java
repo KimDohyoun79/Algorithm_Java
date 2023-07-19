@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_조건문;
+package Baekjoon_단계별로풀기.Bekjoon_02_조건문;
 //https://www.acmicpc.net/problem/2884
 
 import java.util.Scanner;
@@ -16,9 +16,9 @@ public class BJON_2884 {
             h--;
             m = 60 + m;
         }
-        if(h < 0)
-            h=23;
+        if (h < 0)
+            h = 23;
 
-        System.out.println(h +" "+ m);
+        System.out.println(h + " " + m);
     }
 }

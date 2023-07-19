@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Baekjoon_입출력과사칙연산;
+package Baekjoon_단계별로풀기.Baekjoon_01_입출력과사칙연산;
 //https://www.acmicpc.net/problem/11382
 
 import java.util.Scanner;
