@@ -1,6 +1,9 @@
 package Baekjoon_단계별로풀기.Bekjoon_04_1차원배열;
-//https://www.acmicpc.net/problem/10818
-// 최대&최소값, 최대&최소값 비교
+//https://www.acmicpc.net/problem/27866
+//      int max = Integer.MIN_VALUE;
+//      int min = Integer.MAX_VALUE;
+//      max = Math.max(max, num);
+//      min = Math.min(min, num);
 
 import java.util.Scanner;
 

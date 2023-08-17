@@ -1,5 +1,6 @@
 package Baekjoon_단계별로풀기.Bekjoon_04_1차원배열;
 //https://www.acmicpc.net/problem/10811
+// 공 역순
 
 import java.util.Scanner;
 

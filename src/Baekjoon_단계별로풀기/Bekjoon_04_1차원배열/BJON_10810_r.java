@@ -1,6 +1,7 @@
 package Baekjoon_단계별로풀기.Bekjoon_04_1차원배열;
 //https://www.acmicpc.net/problem/10810
-// 배열 초기화
+// 배열 초기화 : Arrays.fill(arr, sc.nextInt() - 1, sc.nextInt(), sc.nextInt());
+
 import java.util.Arrays;
 import java.util.Scanner;
 
