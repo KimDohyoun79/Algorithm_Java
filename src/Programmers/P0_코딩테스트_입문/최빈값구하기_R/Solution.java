@@ -4,7 +4,7 @@ package Programmers.P0_코딩테스트_입문.최빈값구하기_R;
 
 import java.util.HashMap;
 
-public class Programmers_code {
+public class Solution {
     public static int solution(int[] array) {
         HashMap<Integer, Integer> arrMap = new HashMap<>();
 

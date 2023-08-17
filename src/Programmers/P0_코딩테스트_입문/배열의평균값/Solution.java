@@ -2,9 +2,7 @@ package Programmers.P0_코딩테스트_입문.배열의평균값;
 // https://school.programmers.co.kr/learn/courses/30/lessons/120585
 
 
-import java.lang.reflect.Array;
-
-public class Programmers_code {
+public class Solution {
     public static double solution(int[] numbers) {
         double answer = 0;
         for (int num : numbers){

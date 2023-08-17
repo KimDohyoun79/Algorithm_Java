@@ -7,7 +7,7 @@ package Programmers.P0_코딩테스트_입문.연속된수의합_RR;
 
 import java.util.Arrays;
 
-public class Programmers_code {
+public class Solution {
     public static int[] solution(int num, int total) {
         int[] answer = new int[num];
         int start = (total / num) - (total % num == 0 ? num/2 : num/2 - 1);

@@ -4,7 +4,7 @@ package Programmers.P0_코딩테스트_입문.배열2차원으로만들기_R;
 
 import java.util.Arrays;
 
-public class Programmers_code {
+public class Solution {
 
     public static int[][] solution1(int[] num_list, int n) {
         int[][] answer = new int[num_list.length/n][n];

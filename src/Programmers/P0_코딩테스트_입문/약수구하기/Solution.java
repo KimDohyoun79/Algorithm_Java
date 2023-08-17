@@ -4,7 +4,7 @@ package Programmers.P0_코딩테스트_입문.약수구하기;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Programmers_code {
+public class Solution {
     public static int[] solution(int n) {
 
         ArrayList<Integer> arr = new ArrayList<>();

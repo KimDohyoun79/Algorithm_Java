@@ -4,7 +4,7 @@ package Programmers.P0_코딩테스트_입문.배열회전시키기;
 
 import java.util.*;
 
-public class Programmers_code {
+public class Solution {
 
     public static int[] solution(int[] numbers, String direction) {
 

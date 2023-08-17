@@ -4,7 +4,7 @@ package Programmers.P0_코딩테스트_입문.분수의덧셈_R;
 
 import java.util.Arrays;
 
-public class Programmers_code {
+public class Solution {
     public static int[] solution(int denum1, int num1, int denum2, int num2) {
 
         int n = num1 * num2;
