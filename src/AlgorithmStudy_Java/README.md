@@ -1,22 +1,3 @@
-# Algorithm_Java
-
-🏷️Java로 알고리즘을 풀기
-️ 
----
-
-Programmers
-- 프로그래머스 알고리즘 문제입니다.
-
-Baekjoon_단계별로풀기
-- 백준 단계별로풀기 문제를 순서대로 풀어본 문제입니다. 
-
-LikeLion_Back2_Class
-- 멋쟁이사자처럼 백엔드 2기 교육을 받으며 풀어본 알고리즘 문제입니다.
-
-<details>
-<summary>AlgorithmStudy_Java (LikeLion BackEnd 2nd)</summary>
-<div>
-
 # AlgorithmStudy_Java (LikeLion BackEnd 2nd)
 
 🏷️백준스터디 그룹 : https://www.acmicpc.net/group/practice/15876
@@ -166,11 +147,14 @@ LikeLion_Back2_Class
 </div>
 </details>
 
-</div>
-</details>
 
-- 멋쟁이사자처럼 백엔드 교육 2기를 진행하면서 기수 동료들과 같이 알고리즘 공부를 하였습니다.
-- 알고리즘 파트를 나누어 각자 분담을 하고 각 파트 담당자가 설명을 하며 문제를 선정하고 같이 풀어보는 형식으로 진행하였습니다.
+
+
+
+
+
+
+
 
 
 
