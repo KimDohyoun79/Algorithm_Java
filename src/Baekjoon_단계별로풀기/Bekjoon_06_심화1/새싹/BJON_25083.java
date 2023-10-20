@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_06_심화1;
+package Baekjoon_단계별로풀기.Bekjoon_06_심화1.새싹;
 //https://www.acmicpc.net/problem/25083
 
 import java.io.*;
