@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_08_일반수학.분수찾기;
+package Baekjoon_단계별로풀기.Bekjoon_08_일반수학.R_분수찾기;
 //https://www.acmicpc.net/problem/1193
 
 import java.io.*;
