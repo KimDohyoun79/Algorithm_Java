@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_07_2차원배열.색종이;
+package Baekjoon_단계별로풀기.Bekjoon_07_2차원배열.R_색종이;
 //https://www.acmicpc.net/problem/2563
 
 import java.io.*;

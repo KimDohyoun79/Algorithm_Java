@@ -3,7 +3,7 @@ package Baekjoon_단계별로풀기.Bekjoon_04_1차원배열;
 // 공 바꾸기
 import java.util.Scanner;
 
-public class BJON_10813_r {
+public class BJON_10813 {
 
     public static void main(String[] args) {
 

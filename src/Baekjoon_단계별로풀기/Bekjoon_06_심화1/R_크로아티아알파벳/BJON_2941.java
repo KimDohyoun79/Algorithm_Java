@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_06_심화1.크로아티아알파벳;
+package Baekjoon_단계별로풀기.Bekjoon_06_심화1.R_크로아티아알파벳;
 //https://www.acmicpc.net/problem/2941
 
 import java.io.*;
@@ -11,12 +11,10 @@ public class BJON_2941 {
         String str = bf.readLine();
         String[] arr = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
 
-        int size = str.length();
         int count = 0;
         for(int i = 0; i < arr.length; i++){
             if(str.contains(arr[i])){
                 str = str.replaceFirst(arr[i], "1");
-                size = str.length();
                 count++;
                 i--;
             }

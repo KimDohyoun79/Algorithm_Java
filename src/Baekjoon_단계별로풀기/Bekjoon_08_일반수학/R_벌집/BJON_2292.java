@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_08_일반수학.벌집;
+package Baekjoon_단계별로풀기.Bekjoon_08_일반수학.R_벌집;
 //https://www.acmicpc.net/problem/2292
 
 import java.io.*;

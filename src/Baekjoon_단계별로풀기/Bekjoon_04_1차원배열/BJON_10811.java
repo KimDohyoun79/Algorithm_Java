@@ -4,7 +4,7 @@ package Baekjoon_단계별로풀기.Bekjoon_04_1차원배열;
 
 import java.util.Scanner;
 
-public class BJON_10811_r {
+public class BJON_10811 {
 
     public static void main(String[] args) {
 
@@ -19,15 +19,6 @@ public class BJON_10811_r {
 
         while (M-- > 0) {
             int i = sc.nextInt() - 1, j = sc.nextInt() - 1;
-//            if (j - i > 0) {
-//                for (int n = (j - i + 1) / 2; n > 0; n--) { // 숫자 갯수/2 = 앞뒤 번호 교환 횟수
-//                    int tmp = arr[i];
-//                    arr[i] = arr[j];
-//                    arr[j] = tmp;
-//                    i++;
-//                    j--;
-//                }
-//            }
 
             for (int f = i; f < j; f++) {
                 int tmp = arr[f];

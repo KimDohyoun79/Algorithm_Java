@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_08_일반수학.진법변환;
+package Baekjoon_단계별로풀기.Bekjoon_08_일반수학.R_진법변환;
 //https://www.acmicpc.net/problem/2754
 
 import java.io.*;

@@ -11,7 +11,7 @@ package Baekjoon_단계별로풀기.Bekjoon_05_문자열;
 
 import java.util.Scanner;
 
-public class BJON_9086_rr {
+public class BJON_9086 {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_08_일반수학.세로읽기;
+package Baekjoon_단계별로풀기.Bekjoon_07_2차원배열.R_세로읽기;
 //https://www.acmicpc.net/problem/10798
 
 import java.io.*;

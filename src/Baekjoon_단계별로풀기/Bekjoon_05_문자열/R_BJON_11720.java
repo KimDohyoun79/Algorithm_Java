@@ -9,7 +9,7 @@ import java.util.Scanner;
 // 함수 사용 : Character.getNumericValue(str.charAt(i));
 //참고 : https://dlee0129.tistory.com/230
 
-public class BJON_11720_rr {
+public class R_BJON_11720 {
 
     public static void main(String[] args) {
 

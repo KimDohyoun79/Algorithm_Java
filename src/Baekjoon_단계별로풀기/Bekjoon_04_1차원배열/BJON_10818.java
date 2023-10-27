@@ -7,7 +7,7 @@ package Baekjoon_단계별로풀기.Bekjoon_04_1차원배열;
 
 import java.util.Scanner;
 
-public class BJON_10818_r {
+public class BJON_10818 {
 
     public static void main(String[] args) {
 

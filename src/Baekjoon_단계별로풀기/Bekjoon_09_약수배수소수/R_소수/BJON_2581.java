@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_09_약수배수소수.소수;
+package Baekjoon_단계별로풀기.Bekjoon_09_약수배수소수.R_소수;
 //https://www.acmicpc.net/problem/2581
 
 import java.io.*;

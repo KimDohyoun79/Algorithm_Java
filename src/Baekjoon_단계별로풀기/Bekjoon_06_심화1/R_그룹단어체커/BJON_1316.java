@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_06_심화1.그룹단어체커;
+package Baekjoon_단계별로풀기.Bekjoon_06_심화1.R_그룹단어체커;
 //https://www.acmicpc.net/problem/1316
 
 import java.io.*;

@@ -9,9 +9,8 @@ package Baekjoon_단계별로풀기.Bekjoon_05_문자열;
 // 참고 : https://st-lab.tistory.com/59
 
 import java.io.IOException;
-import java.util.Scanner;
 
-public class BJON_11654_r {
+public class R_BJON_11654 {
 
     public static void main(String[] args) throws IOException {
 

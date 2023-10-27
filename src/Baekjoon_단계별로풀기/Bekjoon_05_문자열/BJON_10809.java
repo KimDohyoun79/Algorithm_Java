@@ -6,7 +6,7 @@ package Baekjoon_단계별로풀기.Bekjoon_05_문자열;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BJON_10809_r {
+public class BJON_10809 {
 
     public static void main(String[] args) {
 
