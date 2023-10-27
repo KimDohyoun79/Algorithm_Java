@@ -1,5 +1,5 @@
 package Baekjoon_단계별로풀기.Bekjoon_10_직사각형과삼각형.R_수학은체육과목;
-//https://www.acmicpc.net/problem/3009
+//https://www.acmicpc.net/problem/15894
 
 import java.io.*;
 import java.util.StringTokenizer;
