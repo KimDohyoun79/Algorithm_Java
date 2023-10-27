@@ -1,4 +1,4 @@
-package Baekjoon_단계별로풀기.Bekjoon_11_시간복잡도.알고리즘수업점근적표기;
+package Baekjoon_단계별로풀기.Bekjoon_11_시간복잡도.RR_알고리즘수업점근적표기;
 //https://www.acmicpc.net/problem/24313
 //https://velog.io/@bassy3260/%EB%B0%B1%EC%A4%80-2426224267%EB%B2%88-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%88%98%EC%97%85-16-JAVA
 
