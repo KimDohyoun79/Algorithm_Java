@@ -29,13 +29,10 @@ public class mergeSort {
         int p2 = mid + 1;
         int index = start;
         while(p1 <= mid && p2 <= end){
-            if(tmp[p1] <= tmp[p2]){
-                arr[index] = tmp[p1];
-                p1++;
-            }else{
-                arr[index] = tmp[p2];
-                p2++;
-            }
+            if(tmp[p1] <= tmp[p2])
+                arr[index] = tmp[p1++];
+            else
+                arr[index] = tmp[p2++];
             index++;
         }
         for(int i = 0; i <= mid - p1; i++){

@@ -25,9 +25,7 @@ public class quickSort {
             while(arr[start] < pivot) start++;
             while(pivot < arr[end]) end--;
             if(start <= end) {
-                swap(arr, start, end);
-                start++;
-                end--;
+                swap(arr, start++, end--);
             }
         }
         return start;
