@@ -1,7 +1,6 @@
-package Sort;
+package StudyWithSol.Sort;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class mergeSort {
 
